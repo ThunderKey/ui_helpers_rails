@@ -8,7 +8,7 @@
   }
 }
 
-dl {
+dl.dynamic {
   &.no-spacing {
     margin: 0;
   }
@@ -40,4 +40,6 @@ dl {
       }
     }
   }
+
+  @extend .dl-small-3
 }
