@@ -6,6 +6,17 @@
   dt {
     min-width: $min-padding;
   }
+
+  .dl-item.fixed-size {
+    dd {
+      margin-left: 0;
+      width: 100% - $min-padding;
+    }
+
+    dt {
+      width: $min-padding;
+    }
+  }
 }
 
 dl.dynamic {
@@ -28,6 +39,12 @@ dl.dynamic {
       padding-right: 8px;
       &::after {
         content: ":";
+      }
+    }
+
+    &.fixed-size {
+      dd {
+        display: inline-block;
       }
     }
   }
