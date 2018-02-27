@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["nicolas@keltec.ch"]
 
   spec.summary       = %q{Some UI helpers for rails applications}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = 'https://github.com/ThunderKey/ui_helpers_rails'
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
